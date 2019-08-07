@@ -50,6 +50,7 @@ JetBrains company provides different payment methods to customers. The most comf
 According to accounting principles and rules, we must properly and fully book all transactions. In our case, it means to process several CSV settlement files every month. Right now, settlement processing is fully automated, but previous CSV files were processed manually by an external tool. Unfortunately, there were several unknown and not logged errors during settlement processing. As a result, there are differences between our accounting software NetSuite and settlement reports, which must be identified and fixed asap.
 
 Accounting department provided overall comparison by batch number and merchant account. 
+
 |Merchant Account|Batch Number|NetSuite|Payment gateway|Difference|
 | ------------- | ------ | ------ | ------ | ------ |
 |JetBrainsAmericasUSD||12,004,331|0|12,004,331|
